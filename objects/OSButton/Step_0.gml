@@ -13,8 +13,8 @@ if(keyboard_check_released(ord("W")) and curButton > 0){
 	curButton-=1
 
 }
-if(keyboard_check_released(ord("Z")) and curButton == 0) {
+//if(keyboard_check_released(ord("Z")) and curButton == 1) {
 
-	room_goto(WalkTest)
+//	room_goto(Intro)
 
-}
+//}
